@@ -1,0 +1,48 @@
+[
+    {"id": "Chennai" ,"tname" : "Sathyam Cinemas" , "show" : "4 shows" ,"rating" : "7.7"},
+    {"id": "Chennai" ,"tname" : "Sangam Cinemas" , "show" : "4 shows" ,"rating" : "7.7"},
+    {"id": "Chennai" ,"tname" : "Mayajaal" , "show" : "4 shows","rating" : "7.7"},
+
+    {"id": "Thiruvarur" ,"tname" : "Thailamai Cinemas" , "show" : "4 shows","rating" : "7.7"},
+    {"id": "Thiruvarur" ,"tname" : "Nadesh Cinemas" , "show" : "3 shows" ,"rating" : "7.7"},
+    {"id": "Thiruvarur" ,"tname" : "Chozha Thiraiyarangam" , "show" : "2 shows" ,"rating" : "7.7"},
+    
+    {"id": "Kumbakonam" ,"tname" : "Kasi Kalaiyarangam" , "show" : "4 shows" ,"rating" : "7.7"},
+    {"id": "Kumbakonam" ,"tname" : "Vijaya Theatre" , "show" : "3 shows" ,"rating" : "7.7"},
+    {"id": "Kumbakonam" ,"tname" : "Bala 4K Cinemas" , "show" : "2 shows" ,"rating" : "7.7"},
+
+    {"id": "Nagapattinam" ,"tname" : "Rohini Cinemas" , "show" : "4 shows" ,"rating" : "7.7"},
+    {"id": "Nagapattinam" ,"tname" : "Thulasi Cinemas" , "show" : "3 shows" , "rating" : "7.7"},
+    {"id": "Nagapattinam" ,"tname" : "MSN" , "show" : "2 shows" , "rating" : "7.7"},
+
+    {"id": "Kodaikanal" ,"tname" : "Apsara Cinemas" , "show" : "4 shows" ,"rating" : "7.7"},
+    {"id": "Kodaikanal" ,"tname" : "PVR Cinemas" , "show" : "3 shows" ,"rating" : "7.7"},
+    {"id": "Kodaikanal" ,"tname" : "Deluxe Cinemas" , "show" : "2 shows" ,"rating" : "7.7"},
+
+    {"id": "Kanchipuram" ,"tname" : "Vel Cinemas" , "show" : "4 shows" ,"rating" : "7.7"},
+    {"id": "Kanchipuram" ,"tname" : "Balaji Cinemas" , "show" : "3 shows" , "rating" : "7.7"},
+    {"id": "Kanchipuram" ,"tname" : "Thirumalai Thiraiyarangam" , "show" : "2 shows" , "rating" : "7.7"},
+
+    {"id": "Coimbatore" ,"tname" : "Sri Cinemas" , "show" : "4 shows" ,"rating" : 7.7},
+    {"id": "Coimbatore" ,"tname" : "Abirami Cinemas" , "show" : "3 shows" ,"rating" : "7.7"},
+    {"id": "Coimbatore" ,"tname" : "Zeon Cinemas" , "show" : "2 shows" ,"rating" : "7.7"},
+
+    {"id": "Madurai" ,"tname" : "Ganesh Cinemas" , "show" : "4 shows" ,"rating" : "7.7"},
+    {"id": "Madurai" ,"tname" : "Vetri Cinemas" , "show" : "3 shows" , "rating" : "7.7"},
+    {"id": "Madurai" ,"tname" : "Central Cinemas" , "show" : "2 shows" ,"rating" : "7.7"},
+
+    {"id": "Karaikal" ,"tname" : "Indira Cinemas" , "show" : "4 shows" ,"rating" : "7.7"},
+    {"id": "Karaikal" ,"tname" : "Samy Cinemas" , "show" : "3 shows" , "rating" : "7.7"},
+    {"id": "Karaikal" ,"tname" : "Vasanth Cinemas" , "show" : "2 shows" ,"rating" : "7.7"},
+
+    {"id": "Thanjavur" ,"tname" : "Jupiter Cinemas" , "show" : "4 shows" ,"rating" : "7.7"},
+    {"id": "Thanjavur" ,"tname" : "Vijaya Cinemas" , "show" : "3 shows" ,"rating" : "7.7"},
+    {"id": "Thanjavur" ,"tname" : "Rajarajan Cinemas" , "show" : "2 shows" ,"rating" : "7.7"},
+
+    {"id": "Kanyakumari" ,"tname" : "Chakravarthi Cinemas" , "show" : "4 shows" ,"rating" : "7.7"},
+    {"id": "Kanyakumari" ,"tname" : "Shree Cinemas" , "show" : "3 shows" ,"rating" : "7.7"},
+    {"id": "Kanyakumari" ,"tname" : "Karthick Thiraiyarangam" , "show" : "2 shows" ,"rating" : "7.7"}
+
+
+
+]

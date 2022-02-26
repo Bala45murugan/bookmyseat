@@ -68,8 +68,8 @@ export default function Home(){
         (
           <div className='mt-24  grid grid-flow-col grid-rows-1 gap-6'>
             {
-              movies.map((e)=>(
-                <img src={e.img} alt="a"className='w-56 h-72 mx-4 mt-96'></img>
+              movies.map((e,index)=>(
+                <img key={index} src={e.img} alt="a"className='w-56 h-72 mx-4 mt-96'></img>
               ))
             }
           </div>

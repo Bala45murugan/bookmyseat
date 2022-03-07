@@ -1,45 +1,19 @@
 import Link from 'next/link';
 import React from 'react';
 
+
 export default function Slider(){
     return(
         <>
 
 
-<div className="w-full carousel">
-  <div id="slide1" className="relative w-full carousel-item">
-    <img src="https://mdbootstrap.com/img/Photos/Slides/img%20(15).jpg" className="w-full h-96"></img>
-    <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-      <Link href="#slide3" className="rounded-full">❮</Link> 
-      <Link href="#slide2" className="rounded-full">❯</Link>
-    </div>
-  </div> 
-  <div id="slide2" className="relative w-full carousel-item">
-    <img src="https://mdbootstrap.com/img/Photos/Slides/img%20(22).jpg" className="w-full h-96"></img>
-    <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-      <Link href="#slide1" className="rounded-full">❮</Link> 
-      <Link href="#slide3" className="rounded-full">❯</Link>
-    </div>
-  </div> 
-  <div id="slide3" className="relative w-full carousel-item">
-    <img src="https://mdbootstrap.com/img/Photos/Slides/img%20(23).jpg" className="w-full h-96"></img>
-    <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-      <Link href="#slide2" className="rounded-full">❮</Link> 
-      <Link href="#slide1" className="rounded-full">❯</Link>
-    </div>
-  </div>  
-
-</div>
-
-
-
-{/* <div id="carouselExampleCaptions" className="carousel slide relative" data-bs-ride="carousel">
-  <div className="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4">
+<div id="carouselExampleCaptions" class="carousel slide relative" data-bs-ride="carousel">
+  <div class="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4">
     <button
       type="button"
       data-bs-target="#carouselExampleCaptions"
       data-bs-slide-to="0"
-      className="active"
+      class="active"
       aria-current="true"
       aria-label="Slide 1"
     ></button>
@@ -56,61 +30,60 @@ export default function Slider(){
       aria-label="Slide 3"
     ></button>
   </div>
-  <div className="carousel-inner relative w-full overflow-hidden">
-    <div className="carousel-item active relative float-left w-full">
+  <div class="carousel-inner relative w-full overflow-hidden">
+    <div class="carousel-item active relative float-left w-full">
       <img
         src="https://mdbootstrap.com/img/Photos/Slides/img%20(15).jpg"
-        className="block w-full"
+        class="block w-full"
         alt="..."
       />
-      <div className="carousel-caption hidden md:block absolute text-center">
-        <h5 className="text-xl">First slide label</h5>
+      <div class="carousel-caption hidden md:block absolute text-center">
+        <h5 class="text-xl">First slide label</h5>
         <p>Some representative placeholder content for the first slide.</p>
       </div>
     </div>
-    <div className="carousel-item relative float-left w-full">
+    <div class="carousel-item relative float-left w-full">
       <img
         src="https://mdbootstrap.com/img/Photos/Slides/img%20(22).jpg"
-        className="block w-full"
+        class="block w-full"
         alt="..."
       />
-      <div className="carousel-caption hidden md:block absolute text-center">
-        <h5 className="text-xl">Second slide label</h5>
+      <div class="carousel-caption hidden md:block absolute text-center">
+        <h5 class="text-xl">Second slide label</h5>
         <p>Some representative placeholder content for the second slide.</p>
       </div>
     </div>
-    <div className="carousel-item relative float-left w-full">
+    <div class="carousel-item relative float-left w-full">
       <img
         src="https://mdbootstrap.com/img/Photos/Slides/img%20(23).jpg"
-        className="block w-full"
+        class="block w-full"
         alt="..."
       />
-      <div className="carousel-caption hidden md:block absolute text-center">
-        <h5 className="text-xl">Third slide label</h5>
+      <div class="carousel-caption hidden md:block absolute text-center">
+        <h5 class="text-xl">Third slide label</h5>
         <p>Some representative placeholder content for the third slide.</p>
       </div>
     </div>
   </div>
   <button
-    className="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0"
+    class="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0"
     type="button"
     data-bs-target="#carouselExampleCaptions"
     data-bs-slide="prev"
   >
-    <span className="carousel-control-prev-icon inline-block bg-no-repeat" aria-hidden="true"></span>
-    <span className="visually-hidden">Previous</span>
+    <span class="carousel-control-prev-icon inline-block bg-no-repeat" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
   </button>
   <button
-    className="carousel-control-next absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-0"
+    class="carousel-control-next absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-0"
     type="button"
     data-bs-target="#carouselExampleCaptions"
     data-bs-slide="next"
   >
-    <span className="carousel-control-next-icon inline-block bg-no-repeat" aria-hidden="true"></span>
-    <span className="visually-hidden">Next</span>
+    <span class="carousel-control-next-icon inline-block bg-no-repeat" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
   </button>
-</div> */}
-
+</div>
         </>
     )
 }
